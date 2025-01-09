@@ -3,7 +3,7 @@ const addButtonElement = document.querySelector("button");
 const tasksContainerElement = document.querySelector(".tasks");
 const categoriesContainerElement = document.querySelector(".categories");
 let selectedCategory;
-const categories = ["general", "work", "gym", "hoby"];
+const categories = ["general", "work", "gym", "hoby", "social"];
 const tasks = [{
         name: "wyrzucic smieci",
         isDone: false,
